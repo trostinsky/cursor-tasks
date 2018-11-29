@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --experimental-modules --inspect index.mjs"
- },
+    "start": "nodemon --experimental-modules --inspect index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/trostinsky/cursor-tasks.git"
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/trostinsky/cursor-tasks#readme",
   "dependencies": {
+    "lodash": "^4.17.11",
     "lodash-es": "^4.17.11"
   }
 }
