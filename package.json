@@ -1,0 +1,23 @@
+{
+  "name": "cursor-tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --experimental-modules --inspect index.mjs"
+ },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trostinsky/cursor-tasks.git"
+  },
+  "author": "Trostinsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trostinsky/cursor-tasks/issues"
+  },
+  "homepage": "https://github.com/trostinsky/cursor-tasks#readme",
+  "dependencies": {
+    "lodash-es": "^4.17.11"
+  }
+}
